@@ -1,3 +1,10 @@
+/*
+    Date: 2016/02/25
+    Author: D'Arcey Taylor
+    File: Midterm
+    Website: http://comp2068-midterm.azurewebsites.net
+    Reason: Used a Css file from the web to just add a little flair to the website
+*/
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
@@ -1551,12 +1558,12 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background-image: url("../Assets/background.jpg");
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: black;
 	}
 
 		body.is-loading * {
@@ -1575,12 +1582,12 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: black;
 		line-height: 1.5em;
 	}
 
@@ -1624,7 +1631,7 @@
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: black;
 	}
 
 	em, i {

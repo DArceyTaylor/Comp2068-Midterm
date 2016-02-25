@@ -1,3 +1,10 @@
+<!--
+    Date: 2016/02/25
+    Author: D'Arcey Taylor
+    File: Midterm
+    Website: http://comp2068-midterm.azurewebsites.net
+    Reason: shows a list of characters from my favourite shows
+-->
 <% include partials/header.ejs %>
     <% include partials/navigation.ejs %>
 
@@ -10,27 +17,41 @@
             </p>
 
             <div class="row">
-                <div class="4u 12u$(mobile)">
-                    <article class="item">
-                        <iframe class="image fit" width="420" height="315" src="images/arrow.jpg" frameborder="0" allowfullscreen></iframe>
-                        <header>
-                            <h3>The Green Arrow</h3>
-                        </header>
-                    </article>
-                    <article class="item">
-                        <iframe class="image fit" width="420" height="315" src="images/TheFlash.jpg" frameborder="0" allowfullscreen></iframe>
-                        <header>
-                            <h3>The Flash</h3>
-                        </header>
-                    </article>
-                    <article class="item">
-                        <iframe class="image fit" width="420" height="315" src="images/ATOM.jpg" frameborder="0" allowfullscreen></iframe>
-                        <header>
-                            <h3>The Atom</h3>
-                        </header>
-                    </article>
-                </div>
+
+                <article class="item">
+                    <iframe class="image fit" width="420" height="315" src="Assets/arrow.jpg" frameborder="0" allowfullscreen></iframe>
+
+                    <p>
+                        <h3>The Green Arrow</h3> Green Arrow is a vigilante superhero who fights crime using archery,<b /> martial arts and technology.
+                        In his secret identity he is Oliver Queen, <b /> living in Star City as a wealthy playboy and billionaire
+                        industrialist <b /> turned outspoken socially-progressive politician.
+                    </p>
+                </article>
+
+                <article class="item">
+                    <iframe class="image fit" width="420" height="250" src="Assets/TheFlash.jpg" frameborder="0" allowfullscreen></iframe>
+
+                    <h3>The Flash</h3>
+                    <p>
+                        Barry Allen is The Flash, the fastest man alive. Using his super-speed powers,<b /> he taps into
+                        the Speed Force and becomes a costumed crime-fighter. His position<b /> is a legacy in the Flash
+                        Family, successor to the original Jay Garrick and <b /> predecessor to Wally West.
+                    </p>
+                </article>
+
+                <article class="item">
+                    <iframe class="image fit" width="420" height="315" src="Assets/ATOM.jpg" frameborder="0" allowfullscreen></iframe>
+
+                    <h3>The Atom</h3>
+                    <p>
+                        Ray Palmer, a physics professor at Ivy University<b /> who developed equipment to shrink himself
+                        down to subatomic levels while maintaining regular mass.<b /> Palmer has been a member of the Justice
+                        League, Teen Titans, Suicide Squad and Indigo Tribe. The current<b /> show that he is currently starring
+                        is DCs 'Lengends of Tomorrow'.
+                    </p>
+                </article>
             </div>
+
 
         </main>
         <% include partials/footer.ejs %>

@@ -1,3 +1,10 @@
+<!--
+    Date: 2016/02/25
+    Author: D'Arcey Taylor
+    File: Midterm
+    Website: http://comp2068-midterm.azurewebsites.net
+    Reason: Navigation
+-->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -15,16 +22,19 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <% if(title === "My Favourite People") { %>  
+        <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/people">People</a></li>
             <li><a href="/contact">Contact Us</a></li>
         <% } else if(title == "People Page") { %>
             <li><a href="/">Home</a></li>
+            <a class="navbar-brand" href="#"><i class="fa fa-users"></i></a>
             <li class="active"><a href="/people">People</a></li>
             <li><a href="/contact">Contact Us</a></li>
         <% } else if(title == "Contact") { %>
             <li><a href="/">Home</a></li>
             <li><a href="/people">People</a></li>
+            <a class="navbar-brand" href="#"><i class="fa fa-envelope"></i></a>
             <li class="active"><a href="/contact">Contact Us</a></li>
         <% } %>
       </ul>

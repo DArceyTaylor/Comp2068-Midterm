@@ -8,12 +8,12 @@ router.get('/', function(req, res, next) {
 
 /* GET People page. */
 router.get('/people', function(req, res, next) {
-  res.render('index', { title: 'People Page' });
+  res.render('people', { title: 'People Page' });
 });
 
 /* GET Contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 
